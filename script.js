@@ -10,7 +10,7 @@ function setupGUI() {
     colorRadio.option('Lightyellow', 'lightyellow');
     colorRadio.option('Skyblue', 'skyblue');
     colorRadio.option('Orange', 'orange');
-    colorRadio.selected('lightyellow'); // 초기 색상
+    colorRadio.selected('lightyellow');
     colorRadio.parent("#colorRadio");
     colorRadio.changed(updateColor);
 
