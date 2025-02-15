@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P5.js GUI Example</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.dom.min.js"></script>
+    <script defer src="script.js"></script>
+    <script defer src="sketch.js"></script>
+    <style>
+        body {
+            text-align: center;
+            font-family: Futura, sans-serif;
+        }
+        #controls {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lab 3 - Graphical User Interface (GUI)</h1>
+    <div id="controls">
+        <label for="sizeSlider">Circle Size: </label>
+        <input type="range" id="sizeSlider" min="10" max="200" value="50">
+        <br><br>
+        <label>Circle Color:</label>
+        <div id="colorRadio"></div>
+    </div>
+</body>
+</html>
